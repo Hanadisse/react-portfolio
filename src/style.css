@@ -22,6 +22,12 @@ a {
     color: var(--third);
 }
 
+.nav-tabs li {
+    display: inline;
+}
+
+
+
 
 
 /* FOOTER */
