@@ -1,5 +1,5 @@
 * {
-    background-color: #9b7c7c;
+    background-color: #e2b8b8;
     --main: #000000;
     --second: #7A0019;
     --third: #FFCC33;
@@ -23,7 +23,8 @@ a {
 }
 
 .nav-tabs li {
-    display: inline;
+    display: flex;
+    justify-content: space-around;
 }
 
 
