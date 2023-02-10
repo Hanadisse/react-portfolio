@@ -39,7 +39,7 @@
   },
   "homepage": "https://Hanadisse.github.io/react-portfolio",
   "devDependencies": {
-    "gh-pages": "^4.0.0"
+    "gh-pages": "^4.0.0",
+    "tailwindcss": "^3.2.6"
   }
 }
-
