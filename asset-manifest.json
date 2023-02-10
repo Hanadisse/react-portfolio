@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.c15963aa.css",
+    "main.js": "/react-portfolio/static/js/main.89efe5c7.js",
+    "static/media/parkit.png": "/react-portfolio/static/media/parkit.769928a1d7f90070c3bf.png",
+    "static/media/Foodtracker.png": "/react-portfolio/static/media/Foodtracker.90a8f6d076681c6c43a6.png",
+    "static/media/portfolio 1.png": "/react-portfolio/static/media/portfolio 1.0e850581230b7dc062de.png",
+    "static/media/Weather.png": "/react-portfolio/static/media/Weather.1959921eb8ef06fec504.png",
+    "static/media/Resume.pdf": "/react-portfolio/static/media/Resume.7ad79d6529d3a1434c06.pdf",
+    "static/media/Password.png": "/react-portfolio/static/media/Password.e2e346f6df48c80f2864.png",
+    "static/media/Codequiz.png": "/react-portfolio/static/media/Codequiz.ab89d6e0bcd89bbe1195.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.c15963aa.css.map": "/react-portfolio/static/css/main.c15963aa.css.map",
+    "main.89efe5c7.js.map": "/react-portfolio/static/js/main.89efe5c7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c15963aa.css",
+    "static/js/main.89efe5c7.js"
+  ]
+}
