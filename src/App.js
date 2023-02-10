@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import "./style.css"
-import NavTabs from './components/NavTabs';
+import Nav from './components/Nav';
 import AboutMe from './components/pages/AboutMe';
 import Portfolio from './components/pages/Portfolio';
 import Contact from "./components/pages/Contact"
@@ -30,7 +30,7 @@ export default function App() {
 
   return (
     <div>
-      <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
+      <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
       <Footer/>
     </div>

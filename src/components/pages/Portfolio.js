@@ -1,70 +1,93 @@
 import React from "react";
-
+import PwGen from "../../assets/Password.png"
+import portfolio1 from "../../assets/portfolio 1.png"
+import quiz from "../../assets/Codequiz.png"
+import food from "../../assets/Foodtracker.png"
+import park from "../../assets/parkit.png"
+import weather from "../../assets/Weather.png"
 export default function Portfolio() {
   return (
-    <div>
+    <div className="portfolio">
       <div>
+        <p>Password Generator</p>
+        <img alt="password generator" src={PwGen}></img>
+       <div>
         <a
           href="https://hanadisse.github.io/Password-Generator/"
           className="link"
-        ></a>
-        <p>Password Generator</p>
+        ><button>Site</button></a>
         <a href="https://github.com/Hanadisse/Password-Generator">
-          <button>Click me</button>
+          <button>Repo</button>
         </a>
+        </div>
       </div>
 
       <div>
-        <a href="https://hanadisse.github.io/Portfolio-1/" className="link"></a>
         <p>First Portfolio</p>
+       <img alt="first portfolio" src={portfolio1}></img>
+       <div>
+        <a href="https://hanadisse.github.io/Portfolio-1/" className="link"><button>Site</button></a>
         <a href="https://github.com/Hanadisse/Portfolio-1">
-          <button>Click me</button>
+          <button>Repo</button>
         </a>
+        </div>
       </div>
 
       <div>
+        <p>JavaScript Code Quiz</p>
+        <img alt="code quiz" src={quiz}></img>
+        <div>
         <a
           href="https://hanadisse.github.io/java-code-quiz/"
           className="link"
-        ></a>
-        <p>Java Code Quiz</p>
+        ><button>Site</button></a>
         <a href="https://github.com/Hanadisse/java-code-quiz">
-          <button>Click me</button>
+          <button>Repo</button>
         </a>
+        </div>
       </div>
 
       <div>
+        <p>Food Tracker</p>
+        <img alt="food tracker" src={food}></img>
+        <div>
         <a
           href="https://serene-taiga-18669.herokuapp.com/"
           className="link"
-        ></a>
-        <p>Food Tracker</p>
+        ><button>Site</button></a>
         <a href="https://github.com/kipschetnan/Food-Tracker">
-          <button>Click me</button>
+          <button>Repo</button>
         </a>
+        </div>
       </div>
 
       <div>
+        <p>Park it</p>
+        <img alt="park it" src={park}></img>
+        <div>
         <a
           href="https://deshawnwilliams94.github.io/Park-it/"
           className="link"
-        ></a>
-        <p>Park it</p>
+        ><button>Site</button></a>
         <a href="https://github.com/deshawnwilliams94/Park-it">
-          <button>Click me</button>
+          <button>Repo</button>
         </a>
+        </div>
       </div>
 
       <div>
         <div>
+          <p>Weather Dashboard</p>
+          <img alt="weather dashboard" src={weather}></img>
+         <div>
           <a
             href="https://hanadisse.github.io/City-weather-api/"
             className="link"
-          ></a>
-          <p>Weather Api</p>
+          ><button>Site</button></a>
           <a href="https://github.com/Hanadisse/City-weather-api">
-            <button>Click me</button>
+            <button>Repo</button>
           </a>
+          </div>
         </div>
       </div>
     </div>
