@@ -5,6 +5,7 @@ import quiz from "../../assets/Codequiz.png"
 import food from "../../assets/Foodtracker.png"
 import park from "../../assets/parkit.png"
 import weather from "../../assets/Weather.png"
+import Records from "../../assets/New-age-records.png"
 export default function Portfolio() {
   return (
     <div className="portfolio">
@@ -62,14 +63,14 @@ export default function Portfolio() {
       </div>
 
       <div>
-        <p>Park it</p>
-        <img alt="park it" src={park}></img>
+        <p>New Age Records</p>
+        <img alt="New Age Records" src={Records}></img>
         <div>
         <a
-          href="https://deshawnwilliams94.github.io/Park-it/"
+          href="https://fast-caverns-21349.herokuapp.com/"
           className="link"
         ><button>Site</button></a>
-        <a href="https://github.com/deshawnwilliams94/Park-it">
+        <a href="https://github.com/nambui17/super-sellers">
           <button>Repo</button>
         </a>
         </div>
